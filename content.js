@@ -1,5 +1,3 @@
-console.log('load content.js')
-
 window.addEventListener('load', enableTranslation)
 
 function onPathChange(callback) {
@@ -57,7 +55,7 @@ async function waitElementReady(selector, timeout = 3000, check) {
   let tt
   return new Promise((resolve, reject) => {
     ivTM = setInterval(() => {
-      console.log('等待主要区域出现...')
+      // console.log('等待主要区域出现...')
       element = document.querySelector(selector)
       if (!element) return
       if (check && !check(element)) return
