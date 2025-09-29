@@ -1,0 +1,27 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="64" cy="64" r="60" fill="#f74c00" stroke="#333" stroke-width="2"/>
+  
+  <!-- 箱子轮廓 (代表 crates) -->
+  <rect x="32" y="40" width="64" height="48" fill="none" stroke="#fff" stroke-width="3" rx="4"/>
+  <line x1="32" y1="56" x2="96" y2="56" stroke="#fff" stroke-width="2"/>
+  <line x1="48" y1="40" x2="48" y2="88" stroke="#fff" stroke-width="2"/>
+  <line x1="80" y1="40" x2="80" y2="88" stroke="#fff" stroke-width="2"/>
+  
+  <!-- 翻译符号 (A -> 中) -->
+  <text x="40" y="52" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">A</text>
+  <text x="84" y="52" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">中</text>
+  <path d="M58 48 L70 48" stroke="#fff" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 箭头标记 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#fff"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部装饰 -->
+  <circle cx="40" cy="76" r="3" fill="#fff"/>
+  <circle cx="64" cy="76" r="3" fill="#fff"/>
+  <circle cx="88" cy="76" r="3" fill="#fff"/>
+</svg>
