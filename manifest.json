@@ -1,6 +1,6 @@
 {
   "name": "crates.io Translation",
-  "description": "允许浏览器对 crates.io 的主要区域进行翻译",
+  "description": "Allow browser translation of the main area of ​​crates.io \n\n 允许浏览器对 crates.io 的主要区域进行翻译",
   "version": "1.0",
   "manifest_version": 3,
   "host_permissions": [
